@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #F7FEF5;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+	margin: 5px;
+	width: 1340px;
+	height: 780px;
+	/*background-color: #454567;*/
+	padding-left: 60px;
+	padding-right: 60px;
+	background-image: url(agilli.png);
+}
+
+
+.headPart h5{
+	font-weight: normal;
+	padding-top: 40px;
+	letter-spacing: 5px;
+	
+}
+
+.headPart h1{
+	margin-top: 8px;
+	word-spacing: 10px;
+	letter-spacing: 8px;
+}
+
+.headPart small{
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: 100;
+	font-style: italic;
+}
+
+/*div.float, input.float{
+	float: left;
+}
+
+ input.float{
+ 	width: 80%;
+ 	 width: 0; 
+	 height: 0; 
+	 width: 0; 
+	  height: 0; 
+	  border-top: 60px solid transparent;
+	  border-bottom: 60px solid transparent;
+	  border-left: 60px solid green;
+ }
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; 
+  border-right:30px solid blue; 
+}
+*/
+
+input{
+    width: 80%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.float{
+	background-image: url(aa.jpg);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position: right;
+	border: none;
+}
+
+
+
+input[type=submit] {
+   /* width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;*/
+    width: 25%;
+    background-color: #CA9263;
+    border-radius: 30px;
+    color: white;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.footPart{
+	margin-top: 15px;
+	line-height: 25px;
+}
+
+
+
